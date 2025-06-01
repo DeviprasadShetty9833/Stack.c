@@ -19,3 +19,5 @@
 |---|---|
 
 ---
+
+👉 Source code to implement the basic operations of a singly linked list (insertion, deletion, and traversal) from the file : src.c
