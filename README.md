@@ -20,4 +20,4 @@
 
 ---
 
-👉 Source code to implement the basic operations of a singly linked list (insertion, deletion, and traversal) from the file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/35dd63263187d98d4498cb067c0665bd213bdd75/src.c)
+👉 Source code to implement the basic operations of a singly linked list (insertion, deletion, and traversal) from the file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/35dd63263187d98d4498cb067c0665bd213bdd75/src/Stock_using_Array.c)
