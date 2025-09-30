@@ -31,23 +31,17 @@
 <tr><td>  
   ⏺️ A stack is a linear data structure that follows the LIFO (Last In, First Out) principle.
 
-You can push (insert) elements onto the top of the stack.
-
-You can pop (remove) elements from the top of the stack.
-
-You can also peek (view) the top element without removing it.
-
-
-The stack has a maximum size, and operations must check for overflow (too many elements) and underflow (trying to pop from an empty stack).
+  ⏺️ The stack has a maximum size, and operations must check for overflow (too many elements) and underflow (trying to pop from an empty stack).
 
 <details>  
-  <summary>Click to expand 🔻</summary>  <br> 🟠 Basic Operations:
+  <summary>Click to expand 🔻</summary>  
+<br> 🟠 Basic Operations:
 
-Push (insert an element)
+Push (insert an element) onto the top of the stack.
 
-Pop (remove an element)
+Pop (remove an element) from the top of the stack.
 
-Peek/Top (get top element without removing)
+Peek (get top element without removing) the top element without removing it.
 
 Display (print all elements in stack order)
 
@@ -69,8 +63,9 @@ Easy to implement with arrays or linked lists.
 
 Ensures controlled access order.
 
+</details>  
 
-</details>  </td></tr>  
+</td></tr>  
 </table>  
 ---
 
