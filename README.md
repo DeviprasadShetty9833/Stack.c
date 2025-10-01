@@ -77,12 +77,16 @@ Ensures controlled access order.
 
 1. Headers
 
+*Code:*
+
 ```c
+
 #include <stdio.h>   // For printf and scanf  
 #include <stdlib.h>  // For exit()
+
 ```
 
-In Plain English:
+*In Plain English:*
 
 > "These are my toolkits. stdio.h helps me talk to you (input/output), and stdlib.h helps me quit when things go wrong."
 
@@ -94,25 +98,27 @@ In Plain English:
 
 2. Define Stack
 
+*Code:*
+
 ```c
+
 #define MAX 5   // Maximum size of the stack
 
 typedef struct {
     int arr[MAX];   // Array to hold stack elements
     int top;        // Index of the top element
 } Stack;
+
 ```
 
-Explanation:
+*Explanation:*
 
 > - MAX defines the stack’s capacity.
-
 > - arr[MAX] is the container holding stack elements.
-
 > - top keeps track of where the top element is (starts at -1 when empty).
 
 
-In Plain English:
+*In Plain English:*
 
 > "Think of me as a stack of plates. arr is the plate rack, and top tells me which plate is on the very top. Initially, top = -1, meaning the rack is empty."
 
