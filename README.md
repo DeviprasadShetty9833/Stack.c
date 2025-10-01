@@ -89,12 +89,14 @@ In Plain English:
 
 2. Define Stack
 
+```c
 #define MAX 5   // Maximum size of the stack
 
 typedef struct {
     int arr[MAX];   // Array to hold stack elements
     int top;        // Index of the top element
 } Stack;
+```
 
 Explanation:
 
@@ -116,9 +118,11 @@ In Plain English:
 
 3. Initialize Stack
 
+```c
 void initStack(Stack *s) {
     s->top = -1;   // Empty stack
 }
+```
 
 Algorithm:
 
@@ -137,6 +141,7 @@ In Plain English:
 
 4. Push Operation
 
+```c
 void push(Stack *s, int data) {
     if (s->top == MAX - 1) {
         printf("Stack Overflow! Cannot push %d\n", data);
@@ -145,6 +150,7 @@ void push(Stack *s, int data) {
     s->arr[++(s->top)] = data;
     printf("%d pushed into stack\n", data);
 }
+```
 
 Algorithm:
 
@@ -180,6 +186,7 @@ In Plain English:
 
 5. Pop Operation
 
+```c
 int pop(Stack *s) {
     if (s->top == -1) {
         printf("Stack Underflow! Nothing to pop\n");
@@ -187,6 +194,7 @@ int pop(Stack *s) {
     }
     return s->arr[(s->top)--];
 }
+```
 
 Algorithm:
 
@@ -220,6 +228,7 @@ In Plain English:
 
 6. Peek Operation
 
+```c
 int peek(Stack *s) {
     if (s->top == -1) {
         printf("Stack is empty!\n");
@@ -227,6 +236,7 @@ int peek(Stack *s) {
     }
     return s->arr[s->top];
 }
+```
 
 In Plain English:
 
@@ -239,6 +249,7 @@ In Plain English:
 
 7. Display Stack
 
+```c
 void display(Stack *s) {
     if (s->top == -1) {
         printf("Stack is empty!\n");
@@ -248,6 +259,7 @@ void display(Stack *s) {
     for (int i = s->top; i >= 0; i--)
         printf("%d\n", s->arr[i]);
 }
+```
 
 Example:
 If stack = [10, 20, 30], output is:
@@ -267,6 +279,7 @@ In Plain English:
 
 8. Main Function
 
+```c
 int main() {
     Stack s;
     initStack(&s);
@@ -283,6 +296,7 @@ int main() {
 
     return 0;
 }
+```
 
 Sample Output:
 
