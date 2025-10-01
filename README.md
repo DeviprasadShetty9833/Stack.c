@@ -37,31 +37,41 @@
   <summary>Click to expand 🔻</summary>  
 <br> 🟠 Basic Operations:
 
-Push (insert an element) onto the top of the stack.
+```html
 
-Pop (remove an element) from the top of the stack.
+- Push (insert an element) onto the top of the stack.
 
-Peek (get top element without removing) the top element without removing it.
+- Pop (remove an element) from the top of the stack.
 
-Display (print all elements in stack order)
+- Peek (get top element without removing) the top element without removing it.
 
+- Display (print all elements in stack order)
+
+```
 
 <br> 🟠 Applications:
 
-Expression evaluation (postfix/prefix).
+```html
 
-Undo/Redo in editors.
+- Expression evaluation (postfix/prefix).
 
-Function call management in recursion.
+- Undo/Redo in editors.
 
-Browser forward/backward navigation.
+- Function call management in recursion.
 
+- Browser forward/backward navigation.
+
+```
 
 <br> 🟠 Advantages:
 
-Easy to implement with arrays or linked lists.
+```html
 
-Ensures controlled access order.
+- Easy to implement with arrays or linked lists.
+
+- Ensures controlled access order.
+
+```
 
 </details>  
 
