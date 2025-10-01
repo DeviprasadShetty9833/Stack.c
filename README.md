@@ -75,7 +75,8 @@ Ensures controlled access order.
 <table>
 <tr><td>
 
-1. Headers
+<br> ![1.](https://img.shields.io/badge/_1]_-Headers-000080?style=for-the-badge&logo=C&logoColor=white)   
+
 
 *Code:*
 
@@ -96,7 +97,8 @@ Ensures controlled access order.
 <table>
 <tr><td>
 
-2. Define Stack
+<br> ![2.](https://img.shields.io/badge/_2]_-Define_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
+
 
 *Code:*
 
@@ -186,7 +188,8 @@ HEAD→[Data1 | next1]→[Data2 | next2]→[Data3 | next3]→NULL
 <table>
 <tr><td>
 
-3. Initialize Stack
+<br> ![3.](https://img.shields.io/badge/_3]_-Initialize_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
+
 
 ```c
 void initStack(Stack *s) {
@@ -210,7 +213,8 @@ In Plain English:
 <table>
 <tr><td>
 
-4. Push Operation
+<br> ![4.](https://img.shields.io/badge/_4]_-Push_Operation-000080?style=for-the-badge&logo=C&logoColor=white)   
+
 
 ```c
 void push(Stack *s, int data) {
