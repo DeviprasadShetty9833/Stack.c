@@ -309,6 +309,9 @@ In Plain English:
 
 > "I won’t touch the stack, but I’ll tell you which plate is on top right now."
 
+</td></tr>  
+</table>  
+
 <table>
 <tr><td>
 
@@ -336,6 +339,9 @@ If stack = [10, 20, 30], output is:
 In Plain English:
 
 > "I’ll show you all plates starting from the top. Like tipping the stack for a peek."
+
+</td></tr>  
+</table>  
 
 <table>
 <tr><td>
