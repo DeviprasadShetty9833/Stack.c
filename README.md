@@ -67,9 +67,13 @@ Ensures controlled access order.
 
 </td></tr>  
 </table>  
+
 ---
 
 👉 Source Code (file: stack_array.c)
+
+<table>
+<tr><td>
 
 1. Headers
 
@@ -82,10 +86,11 @@ In Plain English:
 
 > "These are my toolkits. stdio.h helps me talk to you (input/output), and stdlib.h helps me quit when things go wrong."
 
+</td></tr>  
+</table>  
 
-
-
----
+<table>
+<tr><td>
 
 2. Define Stack
 
@@ -100,21 +105,80 @@ typedef struct {
 
 Explanation:
 
-MAX defines the stack’s capacity.
+> - MAX defines the stack’s capacity.
 
-arr[MAX] is the container holding stack elements.
+> - arr[MAX] is the container holding stack elements.
 
-top keeps track of where the top element is (starts at -1 when empty).
+> - top keeps track of where the top element is (starts at -1 when empty).
 
 
 In Plain English:
 
 > "Think of me as a stack of plates. arr is the plate rack, and top tells me which plate is on the very top. Initially, top = -1, meaning the rack is empty."
 
+</td></tr>  
+</table>  
 
 
+<br> ![3.](https://img.shields.io/badge/_3]_-Create_a_Node-000080?style=for-the-badge&logo=C&logoColor=white)   
 
----
+*Code:*
+
+```c
+
+Node* createNode(int data) {
+    Node *newNode = (Node*)malloc(sizeof(Node));  // Allocate memory
+
+    newNode->data = data;                         // Set the value
+    newNode->next = NULL;                         // Initially points to nothing
+
+    return newNode;                               // Return the new node
+}
+
+```
+
+*Algorithm:*
+
+```html
+
+CreateNode(data):
+   1. Allocate memory for new node.
+   2. Set newNode.data = data.
+   3. Set newNode.next = NULL.
+   4. Return newNode.
+
+```
+
+*Explanation:*
+
+> - 'createNode' is function that returns a pointer to a Node.
+> - 'newNode' is a pointer to a Node.
+> - 'malloc' calculates the size in bytes needed to store a Node Structure and allocates memory from the heap(dynamic memory) and returns void pointer.
+> - (Node*) before malloc converts (typecasting) the generic void pointer into a Node pointer.
+> - int data is stored in newNode's data and newNode's next pointer points to NULL i.e does not point to anything.
+
+*Example:*
+
+```html
+HEAD→[Data1 | next1]→[Data2 | next2]→[Data3 | next3]→NULL
+      \_____________/ \_____________/  \_____________/
+             |                |               |  
+            Node             Node            Node
+\__________________________________________________________/
+                              |
+                      Singly Linked List
+
+```
+
+*In Plain English:*
+
+> "I made a new node for you. I saved your number in it. I made sure it doesn't point to any other node yet. Here’s your brand-new node, ready to put it into your list."
+
+</td></tr>
+</table>
+
+<table>
+<tr><td>
 
 3. Initialize Stack
 
@@ -134,10 +198,11 @@ In Plain English:
 
 > "I reset the rack so it’s empty. No plates here yet."
 
+</td></tr>  
+</table>  
 
-
-
----
+<table>
+<tr><td>
 
 4. Push Operation
 
@@ -179,10 +244,11 @@ In Plain English:
 
 > "I check if the rack is full. If not, I place your plate on the top and move the marker up. Voilà — plate stacked!"
 
+</td></tr>  
+</table>  
 
-
-
----
+<table>
+<tr><td>
 
 5. Pop Operation
 
@@ -221,10 +287,11 @@ In Plain English:
 
 > "I look at the top plate, hand it back to you, and then move the marker down. One less plate in the stack!"
 
+</td></tr>  
+</table>  
 
-
-
----
+<table>
+<tr><td>
 
 6. Peek Operation
 
@@ -242,10 +309,8 @@ In Plain English:
 
 > "I won’t touch the stack, but I’ll tell you which plate is on top right now."
 
-
-
-
----
+<table>
+<tr><td>
 
 7. Display Stack
 
@@ -272,10 +337,8 @@ In Plain English:
 
 > "I’ll show you all plates starting from the top. Like tipping the stack for a peek."
 
-
-
-
----
+<table>
+<tr><td>
 
 8. Main Function
 
@@ -313,6 +376,8 @@ Stack elements (top to bottom):
 20
 10
 
+</td></tr>  
+</table>  
 
 ---
 
