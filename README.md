@@ -73,8 +73,10 @@ Ensures controlled access order.
 
 1. Headers
 
+```c
 #include <stdio.h>   // For printf and scanf  
 #include <stdlib.h>  // For exit()
+```
 
 In Plain English:
 
