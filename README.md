@@ -366,7 +366,9 @@ In Plain English:
 <table>
 <tr><td>
 
-8. Main Function
+8. Main Function - Static Input
+
+*Code:*
 
 ```c
 int main() {
@@ -412,6 +414,53 @@ Stack elements (top to bottom):
 </td></tr>  
 </table>  
 
+<table>
+<tr><td>
+
+9. Main Function - Static Input
+
+*Code:*
+
+```c
+int main() {
+    Stack s;
+    initStack(&s);
+    int choice, elem;
+
+    while (1) {
+        printf("Press \n 1. Push \n 2. Pop \n 3. Display \n 4. Exit \n Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+              printf("Enter element to push: ");
+              scanf("%d", &elem);
+              push(&s, elem);
+              break;
+
+            case 2:
+              elem = pop(&s);
+              if (elem != -1)
+              printf("%d popped from stack\n", elem);
+              break;
+
+            case 3:
+              display(&s);
+              break;
+
+            case 4:
+              return 0;
+
+            default:
+              printf("Invalid choice!\n");
+        }
+    }
+}
+```
+
+
+</td></tr>  
+</table>  
 ---
 
 
