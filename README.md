@@ -147,83 +147,25 @@ top -> -1
 </td></tr>  
 </table>  
 
-
-<br> ![3.](https://img.shields.io/badge/_3]_-Create_a_Node-000080?style=for-the-badge&logo=C&logoColor=white)   
-
-*Code:*
-
-```c
-
-Node* createNode(int data) {
-    Node *newNode = (Node*)malloc(sizeof(Node));  // Allocate memory
-
-    newNode->data = data;                         // Set the value
-    newNode->next = NULL;                         // Initially points to nothing
-
-    return newNode;                               // Return the new node
-}
-
-```
-
-*Algorithm:*
-
-```html
-
-CreateNode(data):
-   1. Allocate memory for new node.
-   2. Set newNode.data = data.
-   3. Set newNode.next = NULL.
-   4. Return newNode.
-
-```
-
-*Explanation:*
-
-> - 'createNode' is function that returns a pointer to a Node.
-> - 'newNode' is a pointer to a Node.
-> - 'malloc' calculates the size in bytes needed to store a Node Structure and allocates memory from the heap(dynamic memory) and returns void pointer.
-> - (Node*) before malloc converts (typecasting) the generic void pointer into a Node pointer.
-> - int data is stored in newNode's data and newNode's next pointer points to NULL i.e does not point to anything.
-
-*Example:*
-
-```html
-HEAD→[Data1 | next1]→[Data2 | next2]→[Data3 | next3]→NULL
-      \_____________/ \_____________/  \_____________/
-             |                |               |  
-            Node             Node            Node
-\__________________________________________________________/
-                              |
-                      Singly Linked List
-
-```
-
-*In Plain English:*
-
-> "I made a new node for you. I saved your number in it. I made sure it doesn't point to any other node yet. Here’s your brand-new node, ready to put it into your list."
-
-</td></tr>
-</table>
-
 <table>
 <tr><td>
 
 <br> ![3.](https://img.shields.io/badge/_3]_-Initialize_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
 
-
+*Code:*
 ```c
 void initStack(Stack *s) {
     s->top = -1;   // Empty stack
 }
 ```
 
-Algorithm:
+*Algorithm:*
 
 1. Set s->top = -1.
 
 
 
-In Plain English:
+*In Plain English:*
 
 > "I reset the rack so it’s empty. No plates here yet."
 
