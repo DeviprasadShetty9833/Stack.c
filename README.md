@@ -441,7 +441,7 @@ Stack Underflow! Nothing to pop
 <table>
 <tr><td>
 
-<br> ![9.](https://img.shields.io/badge/_9]_-Main_Function_-_Dynamic_Input(_Menu_driven_)-000080?style=for-the-badge&logo=C&logoColor=white)
+<br> ![9.](https://img.shields.io/badge/_9]_-Main_Function_(_Menu_driven_Dynamic_Input_)-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
 
