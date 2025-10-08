@@ -114,7 +114,7 @@
 
 ```c
 
-#define MAX 5   // Maximum size of the stack
+#define MAX 3   // Maximum size of the stack
 
 typedef struct {
     int arr[MAX];   // Array to hold stack elements
@@ -132,10 +132,10 @@ typedef struct {
 *Example:*
 
 ```html
-MAX = 4 : arr[4]
-        3|_______|   \
-        2|_______|    |_ arr
-        1|_______|    |
+MAX = 3 : arr[3]
+
+        2|_______|   \
+        1|_______|    |- arr
         0|_______|   /
 top -> -1
 ```
@@ -392,9 +392,15 @@ int main() {
     push(&s, 30);
     display(&s);
     printf("Top element: %d\n", peek(&s));
+    push(&s, 40);
     printf("Popped: %d\n", pop(&s));
     printf("Top element: %d\n", peek(&s));
     display(&s);
+    printf("Popped: %d\n", pop(&s));
+    printf("Top element: %d\n", peek(&s));
+    printf("Popped: %d\n", pop(&s));
+    printf("Popped: %d\n", pop(&s));
+    
 
     return 0;
 }
@@ -414,11 +420,16 @@ Stack elements (top to bottom):
 20
 10
 Top element: 30
+Stack Overflow! Cannot push 40
 Popped: 30
 Top element: 20
 Stack elements (top to bottom):
 20
 10
+Popped: 20
+Top element: 10
+Popped: 10
+Stack Underflow! Nothing to pop
 ```
 
 </td></tr>  
