@@ -129,6 +129,16 @@ typedef struct {
 > - arr[MAX] is the container holding stack elements.
 > - top keeps track of where the top element is (starts at -1 when empty).
 
+*Example:*
+
+```html
+MAX = 4 : arr[4]
+        3|_______|   \
+        2|_______|    |_ arr
+        1|_______|    |
+        0|_______|   /
+top -> -1
+```
 
 *In Plain English:*
 
