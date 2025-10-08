@@ -104,6 +104,8 @@
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
 
@@ -147,6 +149,8 @@ top -> -1
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
 
@@ -176,6 +180,8 @@ void initStack(Stack *s) {
 
 </td></tr>  
 </table>  
+
+---
 
 <table>
 <tr><td>
@@ -227,6 +233,8 @@ Stack: [10, 20] (20 is on top)
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
 
@@ -275,6 +283,8 @@ Stack: [10, 20] (20 is on top)
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
 
@@ -301,9 +311,10 @@ int peek(Stack *s) {
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
-
 
 <br> ![7.](https://img.shields.io/badge/_7]_-Display_Stack-000080?style=for-the-badge&logo=C&logoColor=white)
 
@@ -341,6 +352,8 @@ Output:
 
 </td></tr>  
 </table>  
+
+---
 
 <table>
 <tr><td>
@@ -404,6 +417,8 @@ Stack Underflow! Nothing to pop
 </td></tr>  
 </table>  
 
+---
+
 <table>
 <tr><td>
 
@@ -447,7 +462,6 @@ int main() {
     }return 0;
 }
 ```
-
 
 </td></tr>  
 </table>  
