@@ -28,6 +28,7 @@ void push(Stack *s, int elem) {
         printf("Stack Overflow! Cannot push %d\n", elem);
         return;
     }
+    
     s->arr[++(s->top)] = elem;
     printf("%d pushed onto stack\n", elem);
 }
@@ -38,6 +39,7 @@ int pop(Stack *s) {
         printf("Stack Underflow! Cannot pop.\n");
         return -1;
     }
+    
     return s->arr[(s->top)--];
 }
 
@@ -47,10 +49,12 @@ void display(Stack *s) {
         printf("Stack is empty.\n");
         return;
     }
+    
     printf("Stack elements: ");
     for (int i = 0; i <= s->top; i++) {
         printf("%d ", s->arr[i]);
     }
+    
     printf("\n");
 }
 
