@@ -20,7 +20,7 @@
 
 ---
 
-👉 Source code to implement the basic operations of a singly linked list (insertion, deletion, and traversal) from the file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/3b59308a1191ee4e4cc662b8bfdc20ecb9c7c3bf/src/Stack_using_Array.c)
+👉 Source code to implement a Stack data structure using a Linked List ( file : [src.c]() )
 
 
 ---
