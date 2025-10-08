@@ -26,7 +26,7 @@
 
 # Stack Using Array
 
-📂 Source code to implement a Stack data structure using an array ( file : [src.c]() )
+📂 Source code to implement a Stack data structure using an array ( file : [src.c](https://github.com/DeviprasadShetty9833/Stack.c/blob/027f8a82da96a8069a7457b443ac5d853a41f5ac/src/Stack_using_Array.c) )
 
 <table>  
 <tr><td>  
