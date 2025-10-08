@@ -379,7 +379,7 @@ If stack = [10, 20, 30], output is:
 <table>
 <tr><td>
 
-<br> ![8.](https://img.shields.io/badge/_8]_-Main_Function_-_Static_Input-000080?style=for-the-badge&logo=C&logoColor=white)
+<br> ![8.](https://img.shields.io/badge/_8]_-Main_Function_(_Static_Input_)-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
 
