@@ -374,23 +374,28 @@ int main() {
     initStack(&s);
 
     push(&s, 10);
+    printf("Top element: %d\n", peek(&s));
     push(&s, 20);
+    printf("Top element: %d\n", peek(&s));
     push(&s, 30);
     display(&s);
-
     printf("Top element: %d\n", peek(&s));
-
     printf("Popped: %d\n", pop(&s));
+    printf("Top element: %d\n", peek(&s));
     display(&s);
 
     return 0;
 }
 ```
 
-Sample Output:
+*Sample Output:*
+
+```html
 
 10 pushed into stack
+Top element: 10
 20 pushed into stack
+Top element: 20
 30 pushed into stack
 Stack elements (top to bottom):
 30
@@ -398,9 +403,11 @@ Stack elements (top to bottom):
 10
 Top element: 30
 Popped: 30
+Top element: 20
 Stack elements (top to bottom):
 20
 10
+```
 
 </td></tr>  
 </table>  
