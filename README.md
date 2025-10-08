@@ -417,7 +417,7 @@ Stack elements (top to bottom):
 <table>
 <tr><td>
 
-9. Main Function - Static Input
+9. Main Function - Dynamic Input( Menu driven )
 
 *Code:*
 
