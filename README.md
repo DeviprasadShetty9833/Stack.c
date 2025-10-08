@@ -164,9 +164,11 @@ void initStack(Stack *s) {
 
 *Algorithm:*
 
+```html
+
 1. Set s->top = -1.
 
-
+```
 
 *In Plain English:*
 
@@ -197,15 +199,13 @@ void push(Stack *s, int data) {
 
 *Algorithm:*
 
+```html
+
 1. Check if stack is full → if yes, print “Overflow”.
-
-
 2. Increment top.
-
-
 3. Place data at arr[top].
 
-
+```
 
 *Example:*
 
@@ -248,13 +248,13 @@ int pop(Stack *s) {
 
 *Algorithm:*
 
+```html
+
 1. Check if stack is empty → if yes, underflow.
-
 2. Return arr[top].
-
 3. Decrement top.
 
-
+```
 
 *Example:*
 
