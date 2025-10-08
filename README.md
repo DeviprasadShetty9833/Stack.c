@@ -153,10 +153,13 @@ top -> -1
 <br> ![3.](https://img.shields.io/badge/_3]_-Initialize_Stack-000080?style=for-the-badge&logo=C&logoColor=white)   
 
 *Code:*
+
 ```c
+
 void initStack(Stack *s) {
     s->top = -1;   // Empty stack
 }
+
 ```
 
 *Algorithm:*
@@ -178,7 +181,9 @@ void initStack(Stack *s) {
 <br> ![4.](https://img.shields.io/badge/_4]_-Push_Operation-000080?style=for-the-badge&logo=C&logoColor=white)   
 
 *Code:*
+
 ```c
+
 void push(Stack *s, int data) {
     if (s->top == MAX - 1) {
         printf("Stack Overflow! Cannot push %d\n", data);
@@ -187,6 +192,7 @@ void push(Stack *s, int data) {
     s->arr[++(s->top)] = data;
     printf("%d pushed into stack\n", data);
 }
+
 ```
 
 *Algorithm:*
@@ -224,7 +230,10 @@ Stack: [10, 20] (20 is on top)
 
 <br> ![5.](https://img.shields.io/badge/_5]_-Pop_Operation-000080?style=for-the-badge&logo=C&logoColor=white)
 
+*Code:*
+
 ```c
+
 int pop(Stack *s) {
     if (s->top == -1) {
         printf("Stack Underflow! Nothing to pop\n");
@@ -232,9 +241,10 @@ int pop(Stack *s) {
     }
     return s->arr[(s->top)--];
 }
+
 ```
 
-Algorithm:
+*Algorithm:*
 
 1. Check if stack is empty → if yes, underflow.
 
@@ -246,7 +256,7 @@ Algorithm:
 
 
 
-Example:
+*Example:*
 
 Stack: [10, 20, 30] (top = 2)
 
@@ -255,7 +265,7 @@ Pop → returns 30, new top = 1
 
 Stack: [10, 20]
 
-In Plain English:
+*In Plain English:*
 
 > "I look at the top plate, hand it back to you, and then move the marker down. One less plate in the stack!"
 
@@ -268,7 +278,9 @@ In Plain English:
 <br> ![6.](https://img.shields.io/badge/_6]_-Peek_Operation-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
+
 ```c
+
 int peek(Stack *s) {
     if (s->top == -1) {
         printf("Stack is empty!\n");
@@ -276,6 +288,7 @@ int peek(Stack *s) {
     }
     return s->arr[s->top];
 }
+
 ```
 
 *In Plain English:*
@@ -292,7 +305,9 @@ int peek(Stack *s) {
 <br> ![7.](https://img.shields.io/badge/_7]_-Display_Stack-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
+
 ```c
+
 void display(Stack *s) {
     if (s->top == -1) {
         printf("Stack is empty!\n");
@@ -300,8 +315,9 @@ void display(Stack *s) {
     }
     printf("Stack elements (top to bottom):\n");
     for (int i = s->top; i >= 0; i--)
-        printf("%d\n", s->arr[i]);
+    printf("%d\n", s->arr[i]);
 }
+
 ```
 
 *Example:*
