@@ -209,14 +209,16 @@ void push(Stack *s, int data) {
 
 *Example:*
 
-Before push: top = -1
+```html
+
+Before push: [ ] (top = -1)
 
 Push 10 → arr[0] = 10, top = 0
-
 Push 20 → arr[1] = 20, top = 1
 
-
 Stack: [10, 20] (20 is on top)
+
+```
 
 *In Plain English:*
 
@@ -248,9 +250,7 @@ int pop(Stack *s) {
 
 1. Check if stack is empty → if yes, underflow.
 
-
 2. Return arr[top].
-
 
 3. Decrement top.
 
@@ -258,12 +258,15 @@ int pop(Stack *s) {
 
 *Example:*
 
-Stack: [10, 20, 30] (top = 2)
+```html
 
-Pop → returns 30, new top = 1
+Before Pop: [10, 20, 30] (top = 2)
 
+Pop → returns 30, top = 1
 
-Stack: [10, 20]
+Stack: [10, 20] (20 is on top)
+
+```
 
 *In Plain English:*
 
@@ -321,11 +324,16 @@ void display(Stack *s) {
 ```
 
 *Example:*
-If stack = [10, 20, 30], output is:
 
+```html
+
+If stack = [10, 20, 30],
+Output:
 30
 20
 10
+
+```
 
 *In Plain English:*
 
