@@ -235,7 +235,7 @@ In Plain English:
 
 <br> ![4.](https://img.shields.io/badge/_4]_-Push_Operation-000080?style=for-the-badge&logo=C&logoColor=white)   
 
-
+*Code:*
 ```c
 void push(Stack *s, int data) {
     if (s->top == MAX - 1) {
@@ -247,7 +247,7 @@ void push(Stack *s, int data) {
 }
 ```
 
-Algorithm:
+*Algorithm:*
 
 1. Check if stack is full → if yes, print “Overflow”.
 
@@ -259,7 +259,7 @@ Algorithm:
 
 
 
-Example:
+*Example:*
 
 Before push: top = -1
 
@@ -270,7 +270,7 @@ Push 20 → arr[1] = 20, top = 1
 
 Stack: [10, 20] (20 is on top)
 
-In Plain English:
+*In Plain English:*
 
 > "I check if the rack is full. If not, I place your plate on the top and move the marker up. Voilà — plate stacked!"
 
@@ -280,7 +280,7 @@ In Plain English:
 <table>
 <tr><td>
 
-5. Pop Operation
+<br> ![5.](https://img.shields.io/badge/_5]_-Pop_Operation-000080?style=for-the-badge&logo=C&logoColor=white)
 
 ```c
 int pop(Stack *s) {
@@ -323,8 +323,9 @@ In Plain English:
 <table>
 <tr><td>
 
-6. Peek Operation
+<br> ![6.](https://img.shields.io/badge/_6]_-Peek_Operation-000080?style=for-the-badge&logo=C&logoColor=white)
 
+*Code:*
 ```c
 int peek(Stack *s) {
     if (s->top == -1) {
@@ -335,7 +336,7 @@ int peek(Stack *s) {
 }
 ```
 
-In Plain English:
+*In Plain English:*
 
 > "I won’t touch the stack, but I’ll tell you which plate is on top right now."
 
@@ -345,8 +346,10 @@ In Plain English:
 <table>
 <tr><td>
 
-7. Display Stack
 
+<br> ![7.](https://img.shields.io/badge/_7]_-Display_Stack-000080?style=for-the-badge&logo=C&logoColor=white)
+
+*Code:*
 ```c
 void display(Stack *s) {
     if (s->top == -1) {
@@ -359,14 +362,14 @@ void display(Stack *s) {
 }
 ```
 
-Example:
+*Example:*
 If stack = [10, 20, 30], output is:
 
 30
 20
 10
 
-In Plain English:
+*In Plain English:*
 
 > "I’ll show you all plates starting from the top. Like tipping the stack for a peek."
 
@@ -376,7 +379,7 @@ In Plain English:
 <table>
 <tr><td>
 
-8. Main Function - Static Input
+<br> ![8.](https://img.shields.io/badge/_8]_-Main_Function_-_Static_Input-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
 
@@ -438,7 +441,7 @@ Stack Underflow! Nothing to pop
 <table>
 <tr><td>
 
-9. Main Function - Dynamic Input( Menu driven )
+<br> ![9.](https://img.shields.io/badge/_9]_-Main_Function_-_Dynamic_Input(_Menu_driven_)-000080?style=for-the-badge&logo=C&logoColor=white)
 
 *Code:*
 
