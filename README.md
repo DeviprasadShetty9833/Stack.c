@@ -81,8 +81,6 @@
 
 ---
 
-👉 Source Code (file: stack_array.c)
-
 <table>
 <tr><td>
 
