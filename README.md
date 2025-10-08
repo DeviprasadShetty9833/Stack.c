@@ -20,12 +20,13 @@
 
 ---
 
-👉 Source code to implement a Stack data structure using a Linked List ( file : [src.c]() )
+# Stack Using Linked List
 
+📂 Source code to implement a Stack data structure using a Linked List ( file : [src.c]() )
 
----
+# Stack Using Array
 
-📂 Stack Using Array
+📂 Source code to implement a Stack data structure using an array ( file : [src.c]() )
 
 <table>  
 <tr><td>  
