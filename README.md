@@ -493,6 +493,85 @@ int main() {
 }
 ```
 
+*Sample Output:*
+
+```html
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to push: 10
+10 pushed onto stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to push: 20
+20 pushed onto stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to push: 30
+30 pushed onto stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 3
+Stack elements: 10 20 30
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+30 popped from stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 3
+Stack elements: 10 20
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+20 popped from stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+10 popped from stack
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+Stack Underflow! Cannot pop.
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 4
+Exiting program.
+
+```
+
 </td></tr>  
 </table>  
 ---
