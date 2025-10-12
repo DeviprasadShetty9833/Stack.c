@@ -578,7 +578,7 @@ Exiting program.
 ---
 
 # Application-Based Questions
-1. Balancing Parentheses:
+1. *Balancing Parentheses:*
 - Write a program to check if an expression containing parentheses is balanced using a stack.
 - Test it with the following cases and debug any issues:
 - - Input: ((())) (Balanced)
@@ -586,24 +586,24 @@ Exiting program.
   - Input: (() (Unbalanced)
 - What changes would you make to handle multiple types of brackets {}, [], and ()?
 
-2. Reversing Data Using a Stack:
+2. *Reversing Data Using a Stack:*
 - Write a program to reverse a string using a stack.
 
-3. Infix to Postfix Conversion:
+3. *Infix to Postfix Conversion:*
 - Write a program to convert an infix expression (e.g., A+BC) to a postfix expression (ABC+).
 - Debug the following issues:
-- Incorrect precedence rules for operators.
-- Missing parentheses handling.
+- - Incorrect precedence rules for operators.
+  - Missing parentheses handling.
 
 
 # Edge Case and Logical Thinking
 1. Explain what happens in a stack when the push operation is performed on a full stack. How would you handle this
-in real-world applications where resizing is allowed?
+in Real-world applications where resizing is allowed?
 2. A stack is often called a LIFO (Last In, First Out) data structure. Write an example scenario from real life that fits
 this behavior and explain its relevance in programming.
 
 # Challenge Questions
-1. Modify a stack implemented using an array to allow Multiple Stacks within the same array. Implement the push,
+1. Modify a stack implemented using an array to allow *Multiple Stacks* within the same array. Implement the push,
 pop, and display functions for this multi-stack configuration.
 2. Implement a Min-Stack, a stack that allows retrieval of the minimum element in constant time. Use an auxiliary
 stack to store the minimum values.
