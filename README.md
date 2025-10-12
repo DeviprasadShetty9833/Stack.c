@@ -484,6 +484,7 @@ int main() {
               break;
 
             case 4:
+              printf("Exiting program.");
               return 0;
 
             default:
