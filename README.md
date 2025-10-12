@@ -257,7 +257,7 @@ int pop(Stack *s) {
 
 ```html
 
-1. Check if stack is empty → if yes, underflow.
+1. Check if stack is empty → if yes, print “Underflow”.
 2. Return arr[top].
 3. Decrement top.
 
@@ -307,7 +307,7 @@ int peek(Stack *s) {
 
 ```html
 
-1. Check if stack is empty → if yes, Empty Stack.
+1. Check if stack is empty → if yes, print "Empty".
 2. Return arr[top].
 
 ```
