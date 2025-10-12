@@ -595,7 +595,6 @@ Exiting program.
 - - Incorrect precedence rules for operators.
   - Missing parentheses handling.
 
-
 # Edge Case and Logical Thinking
 1. Explain what happens in a stack when the push operation is performed on a full stack. How would you handle this
 in Real-world applications where resizing is allowed?
@@ -609,6 +608,6 @@ pop, and display functions for this multi-stack configuration.
 stack to store the minimum values.
 3. Write a Recursive implementation of the push and pop operations for a stack. Explain the difference in behavior
 compared to iterative implementations.
-4. Using a stack, evaluate the postfix expression 6 5 2 3 + 8 * + 3 + *. Write code to implement this and debug it for
+4. Using a stack, **Evaluate the Postfix expression** 6 5 2 3 + 8 * + 3 + *. Write code to implement this and debug it for
 edge cases (e.g., divide by zero, invalid input).
 
