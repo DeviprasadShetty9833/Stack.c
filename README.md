@@ -354,6 +354,16 @@ void display(Stack *s) {
 
 ```
 
+
+*Algorithm:*
+
+```html
+
+1. Check if stack is empty → if yes, print "Empty".
+2. Display Stack arr.
+
+```
+
 *Example:*
 
 ```html
