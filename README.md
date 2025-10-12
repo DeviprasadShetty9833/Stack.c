@@ -578,7 +578,7 @@ Exiting program.
 ---
 
 # Application-Based Questions
-1. *Balancing Parentheses:*
+1. **Balancing Parentheses:**
 - Write a program to check if an expression containing parentheses is balanced using a stack.
 - Test it with the following cases and debug any issues:
 - - Input: ((())) (Balanced)
@@ -586,10 +586,10 @@ Exiting program.
   - Input: (() (Unbalanced)
 - What changes would you make to handle multiple types of brackets {}, [], and ()?
 
-2. *Reversing Data Using a Stack:*
+2. **Reversing Data Using a Stack:**
 - Write a program to reverse a string using a stack.
 
-3. *Infix to Postfix Conversion:*
+3. **Infix to Postfix Conversion:**
 - Write a program to convert an infix expression (e.g., A+BC) to a postfix expression (ABC+).
 - Debug the following issues:
 - - Incorrect precedence rules for operators.
@@ -603,11 +603,11 @@ in Real-world applications where resizing is allowed?
 this behavior and explain its relevance in programming.
 
 # Challenge Questions
-1. Modify a stack implemented using an array to allow *Multiple Stacks* within the same array. Implement the push,
+1. Modify a stack implemented using an array to allow **Multiple Stacks** within the same array. Implement the push,
 pop, and display functions for this multi-stack configuration.
 2. Implement a Min-Stack, a stack that allows retrieval of the minimum element in constant time. Use an auxiliary
 stack to store the minimum values.
-3. Write a recursive implementation of the push and pop operations for a stack. Explain the difference in behavior
+3. Write a Recursive implementation of the push and pop operations for a stack. Explain the difference in behavior
 compared to iterative implementations.
 4. Using a stack, evaluate the postfix expression 6 5 2 3 + 8 * + 3 + *. Write code to implement this and debug it for
 edge cases (e.g., divide by zero, invalid input).
