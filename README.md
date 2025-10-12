@@ -40,11 +40,11 @@
 
 ```html
 
-- Push (insert an element) onto the top of the stack.
+- Push (insert an element) onto the top of the stack unless the stack is full.
 
-- Pop (remove an element) from the top of the stack.
+- Pop (remove an element) from the top of the stack unless the stack is empty.
 
-- Peek (get top element without removing) the top element without removing it.
+- Peek (get top element) the top element without removing it unless the stack is empty.
 
 - Display (print all elements in stack order)
 
