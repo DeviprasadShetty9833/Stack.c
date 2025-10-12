@@ -303,6 +303,27 @@ int peek(Stack *s) {
 
 ```
 
+*Algorithm:*
+
+```html
+
+1. Check if stack is empty → if yes, Empty Stack.
+2. Return arr[top].
+
+```
+
+*Example:*
+
+```html
+
+Before Peek: [10, 20, 30] (top = 2)
+
+Peek → returns 30, top = 2
+
+Stack: [10, 20, 30] (30 is on top)
+
+```
+
 *In Plain English:*
 
 > "I won’t touch the stack, but I’ll tell you which plate is on top right now."
